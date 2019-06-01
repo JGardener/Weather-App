@@ -1,0 +1,38 @@
+1. If a city name is used multiple times around the world, use 
+coords to pick a specific iteration of said city. Thef mentioned
+Google Maps API. 
+
+2. Convert between celcius and fahrenheit. 
+  2.1. API on enter of input only. Not on the conversion of temperature.
+        Every time you hit the temperature button, you're making a new call on the API. Stop from this happening and only
+        call the API on pressing the enter key in the input field. - NOICE
+  2.2. Clean up this function(s). - NOICE
+
+3. Show city and country - Reintroduce
+
+4. Different time periods for weather, e.g 5 day
+  4.1 - Clean it up.
+  4.2 Display hour by hour
+  4.3 Slightly break apart the createParent function and have one for 5Day and one for current. Share the same code as much as poss. 
+
+
+5. Look through API and see if there is anything interesting to add. 
+
+6. Get Rom to restyle this bloody thing. It looks like a fart. - Partially finished.
+
+7. Look at other Weather API's and identify how you would handle them.
+
+8. Return an error message if city does not exist. 
+
+
+9. Background color should change depending on the weather. 
+e.g. clouds, rain, sun, etc.
+
+10. Add columns for different stats; i.e. wind speeds, temperature high/low/mid(averaged), humidity, etc. 
+  10.1. Style the table to show information clearly, it currently looks like a fart.
+  10.2 Overall each day, for ease of use and vision.  
+
+HOMEWORK - Plan the attack for adding more columns based on the logic found in lines 55-77.
+
+Just before the end, push this to Github.
+At the end, tidy it all up.

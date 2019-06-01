@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>The Weather</title>
+  </head>
+  <body>
+    <div class="input-div">
+      <input id="city-input" type="search" placeholder="Enter your city..." />
+      <button class="toggle-display">Temperature</button>
+      <input
+        type="radio"
+        name="forecast-selection"
+        value="current-weather"
+        checked
+      />Current Weather
+      <input
+        type="radio"
+        name="forecast-selection"
+        value="5-day-forecast"
+      />5-Day Forecast
+    </div>
+
+    <div id="contents"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
